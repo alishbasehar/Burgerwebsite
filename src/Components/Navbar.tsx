@@ -161,7 +161,10 @@ const Navbar: React.FC<NavbarProps> = ({ cart, removeFromCart }) => {
                         </div>
 
                         <button
-                          onClick={() => removeFromCart(index)}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            removeFromCart(index);
+                          }}
                           className="text-red-500 font-bold text-lg"
                         >
                           &times;
