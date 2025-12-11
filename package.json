@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://<alishbasehar>.github.io/<Burgerwebsite>",
+  "homepage": "https://alishbasehar.github.io/Burgerwebsite",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

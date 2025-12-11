@@ -111,7 +111,7 @@ const Navbar: React.FC<NavbarProps> = ({ cart, removeFromCart }) => {
               )}
             </div>
 
-            <button className="bg-gradient-to-r from-amber-600 to-yellow-300 text-white px-6 py-2 rounded-lg">
+            <button className="bg-linear-to-r from-amber-600 to-yellow-300 text-white px-6 py-2 rounded-lg">
               Order
             </button>
           </div>

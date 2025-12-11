@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Burger from '../assets/Burger.jpg';
 
 const About = () => {
