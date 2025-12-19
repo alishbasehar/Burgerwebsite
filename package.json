@@ -6,9 +6,11 @@
   
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+  
    "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
+ "build": "npm run build",
+
     "lint": "eslint .",
     "preview": "vite preview"
   },
