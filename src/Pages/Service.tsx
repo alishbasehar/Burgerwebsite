@@ -5,7 +5,7 @@ import img4 from '../assets/img3.png'
 import img5 from '../assets/img5.png'
 const Service = () => {
   return (
-    <div className=" container mx-auto pt-10 max-w-7xl">
+    <div className=" container mx-auto pt-6 max-w-7xl">
       <div>
         <h1 className=" text-xl sm:text-4xl font-bold mb-6 text-amber-500    text-center">Our Services</h1>
        <h1 className=" text-2xl sm:text-5xl font-bold mb-6 text-black text-center"> What Restaurant Services </h1>
