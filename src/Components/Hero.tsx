@@ -1,5 +1,5 @@
 
-import banner from "../assets/banner2.PNG";
+import banner from "../assets/banner2.png";
 
 const Hero = () => {
   return (
