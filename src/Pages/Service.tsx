@@ -2,7 +2,7 @@ import img1 from '../assets/img1.png'
 import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
 
-import img5 from '../assets/img5.png'
+import img5 from '../assets/img5.PNG'
 const Service = () => {
   return (
     <div className=" container mx-auto pt-6 max-w-7xl">
