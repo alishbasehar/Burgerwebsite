@@ -1,7 +1,7 @@
 import img1 from '../assets/img1.png'
 import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
-import img4 from '../assets/img5.png'
+import img6 from '../assets/img2.png'
 import img5 from '../assets/img5.png'
 const Service = () => {
   return (
@@ -31,7 +31,7 @@ const Service = () => {
         </div>
         <div className="bg-white hover:bg-yellow-300 shadow rounded-lg p-4 flex flex-col items-center 
                  w-full sm:w-[48%]  hover:scale-105 transition-transform duration-300">
-                  <img src={img4} className="w-24 h-24 object-contain mt-3 mb-3"/>
+                  <img src={img6} className="w-24 h-24 object-contain mt-3 mb-3"/>
           <h1 className="text-xl mt-3 font-bold text-center">Farm-to-Table Freshness</h1>
           <p className="text-[15px] mt-3 text-gray-600 text-center leading-relaxed"> Lorem ipsum dolor sit amet, consect adisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
         </div>
