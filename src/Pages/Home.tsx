@@ -1,5 +1,8 @@
 import MenuSection from '../Components/Menu';
 import Hero from '../Components/Hero';
+import Aboutus from '../Components/Aboutus';
+import Service1 from '../Components/Services1'
+
 
 interface Item {
   name: string;
@@ -16,6 +19,8 @@ const Home = ({ addToCart }: HomeProps) => {
     <div>
       <Hero />
       <MenuSection addToCart={addToCart} />
+      <Aboutus/>
+      <Service1/>
     </div>
   )
 }
