@@ -29,8 +29,8 @@ const menuItems: MenuItem[] = [
 
 const Menu = ({ addToCart }: MenuSectionProps) => {
   return (
-    <section className="mt-20 px-4 container mx-auto mb-10 max-w-7xl bg-gradient-to-b from-yellow-50 to-white py-10 rounded-xl shadow-lg">
-      <h2 className="text-5xl font-extrabold mb-12 text-amber-500 text-center drop-shadow-md">
+    <section className=" pt-20 px-4 container mx-auto mb-10 max-w-7xl bg-gradient-to-b from-yellow-50 to-white py-10 rounded-xl shadow-lg">
+      <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-extrabold mb-12 text-amber-500 text-center drop-shadow-md">
         Our Delicious Menu
       </h2>
 

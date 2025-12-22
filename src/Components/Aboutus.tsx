@@ -1,11 +1,11 @@
-import React from 'react'
+
 
 const Aboutus = () => {
   return (
-    <section className="mt-10 px-4 container mx-auto max-w-7xl">
+    <section className="lg:mt-10 px-4 container mx-auto max-w-7xl">
       
       {/* Section Header */}
-      <h1 className="text-5xl font-extrabold text-amber-500 text-center mb-12 drop-shadow-md">
+      <h1 className=" text-xl sm:text-2xl md:text-3xl lg:text-5xl font-extrabold text-amber-500 text-center mb-12 drop-shadow-md">
         About Us
       </h1>
 

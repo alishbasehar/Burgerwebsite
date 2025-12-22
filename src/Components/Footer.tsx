@@ -79,7 +79,7 @@ const Footer = () => {
 
             <a href="#" className="flex items-center space-x-2 hover:text-amber-400 transition">
               <MapPin className="w-5 h-5" />
-              <span>Location: plot 1167 LDA avenue 1</span>
+              <span>johar town lahore</span>
             </a>
           </div>
 

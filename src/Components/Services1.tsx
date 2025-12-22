@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 interface Service {
   title: string;
@@ -33,7 +33,7 @@ const Service1 = () => {
   return (
     <section className="mt-10 px-4 container mx-auto max-w-7xl mb-10">
       {/* Section Header */}
-      <h1 className="text-5xl font-extrabold text-amber-500 text-center mb-12 drop-shadow-md">
+      <h1 className=" text-xl sm:text-2xl md:text-3xl lg:text-5xl font-extrabold text-amber-500 text-center mb-12 drop-shadow-md">
         Our Services
       </h1>
 

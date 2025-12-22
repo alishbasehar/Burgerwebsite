@@ -6,13 +6,13 @@ const About = () => {
     <div className='max-w-7xl mt-24 px-5  container mx-auto'>
     <div className=" bg-black mt-24 px-5 sm:px-20">
       {/* Heading */}
-      <h1 className="text-4xl font-bold text-orange-300 mb-12 text-center">
+      <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-orange-300 pt-10 mb-12 text-center">
         About Us
       </h1>
 
       {/* Flex Section */}
  
-      <div className="flex flex-col lg:flex-row sm:gap-6 gap-10 p-5">
+      <div className="flex flex-col  lg:flex-row sm:gap-6 gap-10 p-5">
   {/* Image */}
   <div className="lg:flex-1 w-full flex justify-center">
     <img
@@ -38,7 +38,7 @@ const About = () => {
 
 
      </div>
-<div className="flex flex-wrap  gap-6 mt-5">
+<div className="flex flex-wrap  gap-6 mt-10">
   <div className="w-full sm:w-[48%] lg:w-[23%] hover:scale-105 transition-transform duration-300 bg-yellow-300 p-6 rounded-2xl shadow-md hover:shadow-xl">
     <h2 className="text-2xl font-bold mb-3">Our Mission</h2>
     <p className="text-gray-800">
@@ -67,7 +67,7 @@ const About = () => {
     </p>
   </div>
 </div>
-<div className="flex flex-col sm:flex-row items-stretch justify-evenly gap-6 mt-6 mb-6">
+<div className="flex flex-col sm:flex-row items-stretch justify-evenly gap-6 mt-10 mb-6">
 
   {/* Text Section */}
   <div className="flex flex-1 flex-col justify-center bg-black text-amber-50 rounded-2xl p-8 md:p-12 shadow-lg hover:scale-105 transition-transform duration-300 w-full">

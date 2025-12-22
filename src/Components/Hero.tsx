@@ -4,9 +4,10 @@ import banner from "../assets/banner2.png";
 const Hero = () => {
   return (
     <div className="w-full">
-      <div className="container mx-auto max-w-7xl">
+      <div className="container  mt-[-70px] mx-auto max-w-7xl">
         <div
   className="
+
    min-h-90
   md:min-h-[550px]  // Full screen height on mobile, minimum height on desktop
     flex 
@@ -16,6 +17,7 @@ const Hero = () => {
     bg-center 
     bg-no-repeat
     px-5
+
   "
   style={{ backgroundImage: `url(${banner})` }}
 >
@@ -23,10 +25,10 @@ const Hero = () => {
           {/* Text Section */}
           <div className="text-left max-w-lg text-white mb-6">
             {/* Mobile View */}
-            <h1 className="text-xl font-bold mb-4 md:hidden">
+            <h1 className=" text-lg  font-bold mb-4 md:hidden">
               Welcome to Burger King
             </h1>
-            <p className="text-lg md:hidden">
+            <p className=" text-base md:hidden">
               Best burgers in Pakistan
             </p>
 
@@ -49,7 +51,7 @@ const Hero = () => {
 
           {/* Button Section */}
           <div className="w-full pl-0 md:pl-30 flex md:block justify-center md:justify-start">
-            <button className="bg-linear-to-r from-amber-600 to-yellow-300 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg hover:scale-105 transition transform duration-300">
+            <button className="bg-linear-to-r from-amber-600 to-yellow-300 text-white px-2 py-1 md:px-6 md:py-3 rounded-lg hover:scale-105 transition transform duration-300">
               Order Now
             </button>
           </div>

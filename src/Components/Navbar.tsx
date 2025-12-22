@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.avif";
+import logo from "../assets/logo2.jpg";
 import { ShoppingCart } from "lucide-react";
 
 interface Item {
@@ -33,12 +33,12 @@ const Navbar: React.FC<NavbarProps> = ({ cart, removeFromCart }) => {
           {/* Logo */}
           <div>
             <Link to="/">
-              <img src={logo} className="w-15 py-2 px-1" alt="Logo" />
+              <img src={logo} className="h-26 w-auto object-contain" alt="Logo" />
             </Link>
           </div>
 
           {/* Desktop Links */}
-          <ul className="hidden sm:flex pl-10 gap-20">
+          <ul className="hidden sm:flex pl-10 sm:gap-10 lg:gap-20">
             {navlink.map((link) => (
               <li key={link.id}>
                 <Link
@@ -177,7 +177,7 @@ const Navbar: React.FC<NavbarProps> = ({ cart, removeFromCart }) => {
             </div>
 
             <button
-              className="text-3xl focus:outline-none"
+              className="text-3xl  focus:outline-none"
               onClick={() => setIsOpen(!isOpen)}
             >
               ☰
@@ -187,7 +187,7 @@ const Navbar: React.FC<NavbarProps> = ({ cart, removeFromCart }) => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="sm:hidden fixed top-16 left-0 z-40 w-full bg-white py-4 border-t">
+          <div className="sm:hidden fixed top-25 left-0 z-40 w-full bg-white py-4 border-t">
             <ul className="flex flex-col items-center gap-4">
               {navlink.map((link) => (
                 <li key={link.id}>
